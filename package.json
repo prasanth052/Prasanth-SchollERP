@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "BackEnd",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist",
+    "start": "nodemon index.js",
+    "server": "nodemon app --ignore './client/'"
+  },
+  "author": "Prasanth K",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.1.7"
+  }
+}
